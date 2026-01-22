@@ -1,0 +1,875 @@
+{
+    "users": [
+        {
+            "name": "SAMUEL YEBOAH",
+            "email": "samuelyeboah@gmail.com",
+            "password": "12345678",
+            "role": "patient",
+            "id": "pat7957",
+            "pathNumber": "PATH-2008",
+            "verificationStatus": "Verified"
+        },
+        {
+            "name": "Ethel Stargirl",
+            "email": "etheladabs@gmail.com",
+            "password": "veQhew-gonvym-cywby5",
+            "role": "patient",
+            "id": "pat4139",
+            "pathNumber": "PATH-8406",
+            "verificationStatus": "Verified"
+        },
+        {
+            "name": "Patricia Mawulolo Kaletsi ",
+            "email": "elevatedpretty@gmail.com",
+            "password": "patkal2020",
+            "role": "patient",
+            "id": "pat5414",
+            "pathNumber": "PATH-4016",
+            "verificationStatus": "Verified"
+        },
+        {
+            "name": "Stem Cell",
+            "email": "stemcell070@gmail.com",
+            "password": "StemCell#7",
+            "role": "patient",
+            "id": "pat2922",
+            "pathNumber": "PATH-9096",
+            "verificationStatus": "Verified"
+        },
+        {
+            "name": "Asana imoro",
+            "email": "asanaimoro@gmail.com",
+            "password": "12345678",
+            "role": "patient",
+            "id": "pat7638",
+            "pathNumber": "PATH-7628",
+            "verificationStatus": "Verified"
+        },
+        {
+            "email": "admin@drkal.com",
+            "password": "password",
+            "role": "admin",
+            "name": "Dr. Kal (Admin)",
+            "id": "admin1",
+            "verificationStatus": "Verified"
+        },
+        {
+            "email": "physician@drkal.com",
+            "password": "password",
+            "role": "doctor",
+            "name": "Dr. Sarah Smith",
+            "id": "phy1",
+            "verificationStatus": "Verified"
+        },
+        {
+            "email": "nurse@drkal.com",
+            "password": "password",
+            "role": "nurse",
+            "name": "Nurse Joy",
+            "id": "nur1",
+            "verificationStatus": "Verified"
+        },
+        {
+            "email": "dietician@drkal.com",
+            "password": "password",
+            "role": "dietician",
+            "name": "Dt. Michael Green",
+            "id": "die1",
+            "verificationStatus": "Verified"
+        },
+        {
+            "email": "lab@drkal.com",
+            "password": "password",
+            "role": "scientist",
+            "name": "Dr (Mls) John Doe",
+            "id": "sci1",
+            "verificationStatus": "Verified"
+        },
+        {
+            "email": "pharmacy@drkal.com",
+            "password": "password",
+            "role": "pharmacist",
+            "name": "Pharm. David Black",
+            "id": "pha1",
+            "verificationStatus": "Verified"
+        },
+        {
+            "email": "psychologist@drkal.com",
+            "password": "password",
+            "role": "psychologist",
+            "name": "Dr. Mindy C.",
+            "id": "psy1",
+            "verificationStatus": "Verified"
+        }
+    ],
+    "appointments": [
+        {
+            "id": "APP-1767860492114",
+            "createdAt": "2026-01-08T08:21:32.114Z",
+            "status": "Upcoming",
+            "patientId": "PATH-1234",
+            "patientName": "John Doe Alex",
+            "professionalId": "die1",
+            "professionalName": "Dt. Michael Green",
+            "professionalCategory": "Dietician",
+            "date": "2026-01-21",
+            "time": "05:00 AM",
+            "type": "In-person",
+            "reason": "General Consultation",
+            "amountPaid": 0,
+            "balanceDue": 155,
+            "paymentStatus": "Pending",
+            "currency": "GHS"
+        },
+        {
+            "id": "APP-1767043990499",
+            "createdAt": "2025-12-29T21:33:10.501Z",
+            "status": "Upcoming",
+            "patientId": "PATH-8406",
+            "patientName": "Ethel Stargirl",
+            "professionalId": "phy2",
+            "professionalName": "Dr. James Wilson",
+            "professionalCategory": "Physician",
+            "date": "2025-12-29",
+            "time": "09:00 AM",
+            "type": "Video",
+            "paymentStatus": "Paid",
+            "reason": "General Consultation"
+        },
+        {
+            "id": "APP-1767041528292",
+            "createdAt": "2025-12-29T20:52:08.292Z",
+            "status": "Upcoming",
+            "patientId": "PATH-7628",
+            "patientName": "Asana imoro",
+            "professionalId": "sci2",
+            "professionalName": "Dr (Mls) Jane Roe",
+            "professionalCategory": "Scientist",
+            "date": "2025-12-31",
+            "time": "02:00 PM",
+            "type": "In-person",
+            "paymentStatus": "Paid",
+            "reason": "General Consultation"
+        },
+        {
+            "id": "APP-1767041501431",
+            "createdAt": "2025-12-29T20:51:41.431Z",
+            "status": "Upcoming",
+            "patientId": "PATH-7628",
+            "patientName": "Asana imoro",
+            "professionalId": "pha1",
+            "professionalName": "Pharm. David Black",
+            "professionalCategory": "Pharmacist",
+            "date": "2025-12-31",
+            "time": "02:00 PM",
+            "type": "In-person",
+            "paymentStatus": "Paid",
+            "reason": "General Consultation"
+        },
+        {
+            "id": "APP-1767040948385",
+            "createdAt": "2025-12-29T20:42:28.385Z",
+            "status": "Upcoming",
+            "patientId": "PATH-4016",
+            "patientName": "Patricia Mawulolo Kaletsi ",
+            "professionalId": "psy2",
+            "professionalName": "Dr. Sigmund F.",
+            "professionalCategory": "Psychologist",
+            "date": "2025-12-30",
+            "time": "02:00 PM",
+            "type": "Video",
+            "paymentStatus": "Paid",
+            "reason": "General Consultation"
+        },
+        {
+            "id": "APP-1767040645538",
+            "createdAt": "2025-12-29T20:37:25.538Z",
+            "status": "Upcoming",
+            "patientId": "PATH-7628",
+            "patientName": "Asana imoro",
+            "professionalId": "die1",
+            "professionalName": "Dt. Michael Green",
+            "professionalCategory": "Dietician",
+            "date": "2025-12-31",
+            "time": "02:00 PM",
+            "type": "Video",
+            "paymentStatus": "Paid",
+            "reason": "General Consultation"
+        }
+    ],
+    "messages": [],
+    "activity_logs": [
+        {
+            "id": "ACT-1767860492115",
+            "timestamp": "2026-01-08T08:21:32.115Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "John Doe Alex",
+            "details": "Booked with Dt. Michael Green for 2026-01-21",
+            "metadata": {
+                "appointmentId": "APP-1767860492114"
+            }
+        },
+        {
+            "id": "ACT-1767655602685",
+            "timestamp": "2026-01-05T23:26:42.685Z",
+            "type": "APPOINTMENT_CANCELLED",
+            "user": "SAMUEL YEBOAH",
+            "details": "Cancelled appointment with Dr. B.F. Skinner",
+            "metadata": {
+                "appointmentId": "APP-1767646273973"
+            }
+        },
+        {
+            "id": "ACT-1767646273979",
+            "timestamp": "2026-01-05T20:51:13.979Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "SAMUEL YEBOAH",
+            "details": "Booked with Dr. B.F. Skinner for 2026-01-14",
+            "metadata": {
+                "appointmentId": "APP-1767646273973"
+            }
+        },
+        {
+            "id": "ACT-1767057285659",
+            "timestamp": "2025-12-30T01:14:45.659Z",
+            "type": "APPOINTMENT_CANCELLED",
+            "user": "SAMUEL YEBOAH",
+            "details": "Cancelled appointment with Dr. Sarah Smith",
+            "metadata": {
+                "appointmentId": "APP-1767051885806"
+            }
+        },
+        {
+            "id": "ACT-1767057278661",
+            "timestamp": "2025-12-30T01:14:38.661Z",
+            "type": "APPOINTMENT_CANCELLED",
+            "user": "John Doe Alex",
+            "details": "Cancelled appointment with Dr. James Wilson",
+            "metadata": {
+                "appointmentId": "APP-1767053791877"
+            }
+        },
+        {
+            "id": "ACT-1767054611677",
+            "timestamp": "2025-12-30T00:30:11.677Z",
+            "type": "APPOINTMENT_CANCELLED",
+            "user": "John Doe Alex",
+            "details": "Cancelled appointment with Dr (Mls) Marie Curie",
+            "metadata": {
+                "appointmentId": "APP-1767052536280"
+            }
+        },
+        {
+            "id": "ACT-1767054601601",
+            "timestamp": "2025-12-30T00:30:01.601Z",
+            "type": "APPOINTMENT_CANCELLED",
+            "user": "John Doe Alex",
+            "details": "Cancelled appointment with Dr. Sarah Smith",
+            "metadata": {
+                "appointmentId": "APP-1767054570359"
+            }
+        },
+        {
+            "id": "ACT-1767054570360",
+            "timestamp": "2025-12-30T00:29:30.360Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "John Doe Alex",
+            "details": "Booked with Dr. Sarah Smith for 2025-12-31",
+            "metadata": {
+                "appointmentId": "APP-1767054570359"
+            }
+        },
+        {
+            "id": "ACT-1767053791881",
+            "timestamp": "2025-12-30T00:16:31.881Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "John Doe Alex",
+            "details": "Booked with Dr. James Wilson for 2025-12-31",
+            "metadata": {
+                "appointmentId": "APP-1767053791877"
+            }
+        },
+        {
+            "id": "ACT-1767052536283",
+            "timestamp": "2025-12-29T23:55:36.283Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "John Doe Alex",
+            "details": "Booked with Dr (Mls) Marie Curie for 2025-12-31",
+            "metadata": {
+                "appointmentId": "APP-1767052536280"
+            }
+        },
+        {
+            "id": "ACT-1767051885810",
+            "timestamp": "2025-12-29T23:44:45.810Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "SAMUEL YEBOAH",
+            "details": "Booked with Dr. Sarah Smith for 2025-12-31",
+            "metadata": {
+                "appointmentId": "APP-1767051885806"
+            }
+        },
+        {
+            "id": "ACT-1767043990533",
+            "timestamp": "2025-12-29T21:33:10.533Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "Ethel Stargirl",
+            "details": "Booked with Dr. James Wilson for 2025-12-29",
+            "metadata": {
+                "appointmentId": "APP-1767043990499"
+            }
+        },
+        {
+            "id": "ACT-1767042332336",
+            "timestamp": "2025-12-29T21:05:32.336Z",
+            "type": "APPOINTMENT_CANCELLED",
+            "user": "Stem Cell",
+            "details": "Cancelled appointment with Dr (Mls) John Doe",
+            "metadata": {
+                "appointmentId": "APP-1767040778799"
+            }
+        },
+        {
+            "id": "ACT-1767041528293",
+            "timestamp": "2025-12-29T20:52:08.293Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "Asana imoro",
+            "details": "Booked with Dr (Mls) Jane Roe for 2025-12-31",
+            "metadata": {
+                "appointmentId": "APP-1767041528292"
+            }
+        },
+        {
+            "id": "ACT-1767041501436",
+            "timestamp": "2025-12-29T20:51:41.436Z",
+            "type": "APPOINTMENT_BOOKED",
+            "user": "Asana imoro",
+            "details": "Booked with Pharm. David Black for 2025-12-31",
+            "metadata": {
+                "appointmentId": "APP-1767041501431"
+            }
+        }
+    ],
+    "email_logs": [],
+    "notifications": [
+        {
+            "id": "NOTIF-1767860492116-245",
+            "timestamp": "2026-01-08T08:21:32.116Z",
+            "status": "Unread",
+            "recipientId": "PATH-1234",
+            "professionalName": "John Doe Alex",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Dt. Michael Green for 2026-01-21 at 05:00 AM has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767860492114",
+                "patientId": "PATH-1234",
+                "professionalName": "Dt. Michael Green",
+                "date": "2026-01-21",
+                "time": "05:00 AM",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767860492116-723",
+            "timestamp": "2026-01-08T08:21:32.116Z",
+            "status": "Accepted",
+            "recipientId": "die1",
+            "professionalName": "Dt. Michael Green",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "John Doe Alex booked a In-person session for 2026-01-21 at 05:00 AM.",
+            "details": {
+                "patientName": "John Doe Alex",
+                "patientId": "PATH-1234",
+                "appointmentType": "In-person",
+                "date": "2026-01-21",
+                "time": "05:00 AM",
+                "amountPaid": 0,
+                "balanceDue": 155
+            }
+        },
+        {
+            "id": "NOTIF-1767655602686-616",
+            "timestamp": "2026-01-05T23:26:42.686Z",
+            "status": "Unread",
+            "recipientId": "psy4",
+            "professionalName": "Dr. B.F. Skinner",
+            "type": "APPOINTMENT_CANCELLED",
+            "title": "Appointment Cancelled",
+            "message": "SAMUEL YEBOAH has cancelled their appointment for 2026-01-14 at 09:26 AM.",
+            "details": {
+                "patientName": "SAMUEL YEBOAH",
+                "date": "2026-01-14",
+                "time": "09:26 AM"
+            }
+        },
+        {
+            "id": "NOTIF-1767646273986-431",
+            "timestamp": "2026-01-05T20:51:13.986Z",
+            "status": "Unread",
+            "recipientId": "PATH-2008",
+            "professionalName": "SAMUEL YEBOAH",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Dr. B.F. Skinner for 2026-01-14 at 09:26 AM has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767646273973",
+                "patientId": "PATH-2008",
+                "professionalName": "Dr. B.F. Skinner",
+                "date": "2026-01-14",
+                "time": "09:26 AM",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767646273984-933",
+            "timestamp": "2026-01-05T20:51:13.984Z",
+            "status": "Unread",
+            "recipientId": "psy4",
+            "professionalName": "Dr. B.F. Skinner",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "SAMUEL YEBOAH booked a In-person session for 2026-01-14 at 09:26 AM.",
+            "details": {
+                "patientName": "SAMUEL YEBOAH",
+                "patientId": "PATH-2008",
+                "appointmentType": "In-person",
+                "date": "2026-01-14",
+                "time": "09:26 AM",
+                "amountPaid": 0,
+                "balanceDue": 155
+            }
+        },
+        {
+            "id": "NOTIF-1767057285659-711",
+            "timestamp": "2025-12-30T01:14:45.659Z",
+            "status": "Unread",
+            "recipientId": "phy1",
+            "professionalName": "Dr. Sarah Smith",
+            "type": "APPOINTMENT_CANCELLED",
+            "title": "Appointment Cancelled",
+            "message": "SAMUEL YEBOAH has cancelled their appointment for 2025-12-31 at 02:00 PM.",
+            "details": {
+                "patientName": "SAMUEL YEBOAH",
+                "date": "2025-12-31",
+                "time": "02:00 PM"
+            }
+        },
+        {
+            "id": "NOTIF-1767057278662-347",
+            "timestamp": "2025-12-30T01:14:38.662Z",
+            "status": "Unread",
+            "recipientId": "phy2",
+            "professionalName": "Dr. James Wilson",
+            "type": "APPOINTMENT_CANCELLED",
+            "title": "Appointment Cancelled",
+            "message": "John Doe Alex has cancelled their appointment for 2025-12-31 at 07:45 AM.",
+            "details": {
+                "patientName": "John Doe Alex",
+                "date": "2025-12-31",
+                "time": "07:45 AM"
+            }
+        },
+        {
+            "id": "NOTIF-1767054611678-95",
+            "timestamp": "2025-12-30T00:30:11.678Z",
+            "status": "Unread",
+            "recipientId": "sci4",
+            "professionalName": "Dr (Mls) Marie Curie",
+            "type": "APPOINTMENT_CANCELLED",
+            "title": "Appointment Cancelled",
+            "message": "John Doe Alex has cancelled their appointment for 2025-12-31 at 01:45.",
+            "details": {
+                "patientName": "John Doe Alex",
+                "date": "2025-12-31",
+                "time": "01:45"
+            }
+        },
+        {
+            "id": "NOTIF-1767054601603-823",
+            "timestamp": "2025-12-30T00:30:01.603Z",
+            "status": "Unread",
+            "recipientId": "phy1",
+            "professionalName": "Dr. Sarah Smith",
+            "type": "APPOINTMENT_CANCELLED",
+            "title": "Appointment Cancelled",
+            "message": "John Doe Alex has cancelled their appointment for 2025-12-31 at 06:05 AM.",
+            "details": {
+                "patientName": "John Doe Alex",
+                "date": "2025-12-31",
+                "time": "06:05 AM"
+            }
+        },
+        {
+            "id": "NOTIF-1767054570364-647",
+            "timestamp": "2025-12-30T00:29:30.364Z",
+            "status": "Unread",
+            "recipientId": "PATH-1234",
+            "professionalName": "John Doe Alex",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Dr. Sarah Smith for 2025-12-31 at 06:05 AM has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767054570359",
+                "patientId": "PATH-1234",
+                "professionalName": "Dr. Sarah Smith",
+                "date": "2025-12-31",
+                "time": "06:05 AM",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767054570362-988",
+            "timestamp": "2025-12-30T00:29:30.362Z",
+            "status": "Unread",
+            "recipientId": "phy1",
+            "professionalName": "Dr. Sarah Smith",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "John Doe Alex booked a In-person session for 2025-12-31 at 06:05 AM.",
+            "details": {
+                "patientName": "John Doe Alex",
+                "patientId": "PATH-1234",
+                "appointmentType": "In-person",
+                "date": "2025-12-31",
+                "time": "06:05 AM",
+                "amountPaid": 0,
+                "balanceDue": 155
+            }
+        },
+        {
+            "id": "NOTIF-1767053791887-87",
+            "timestamp": "2025-12-30T00:16:31.887Z",
+            "status": "Unread",
+            "recipientId": "PATH-1234",
+            "professionalName": "John Doe Alex",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Dr. James Wilson for 2025-12-31 at 07:45 AM has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767053791877",
+                "patientId": "PATH-1234",
+                "professionalName": "Dr. James Wilson",
+                "date": "2025-12-31",
+                "time": "07:45 AM",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767053791885-865",
+            "timestamp": "2025-12-30T00:16:31.885Z",
+            "status": "Unread",
+            "recipientId": "phy2",
+            "professionalName": "Dr. James Wilson",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "John Doe Alex booked a Video session for 2025-12-31 at 07:45 AM.",
+            "details": {
+                "patientName": "John Doe Alex",
+                "patientId": "PATH-1234",
+                "appointmentType": "Video",
+                "date": "2025-12-31",
+                "time": "07:45 AM",
+                "amountPaid": 0,
+                "balanceDue": 155
+            }
+        },
+        {
+            "id": "NOTIF-1767052536285-950",
+            "timestamp": "2025-12-29T23:55:36.285Z",
+            "status": "Unread",
+            "recipientId": "PATH-1234",
+            "professionalName": "John Doe Alex",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Dr (Mls) Marie Curie for 2025-12-31 at 01:45 has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767052536280",
+                "patientId": "PATH-1234",
+                "professionalName": "Dr (Mls) Marie Curie",
+                "date": "2025-12-31",
+                "time": "01:45",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767052536284-779",
+            "timestamp": "2025-12-29T23:55:36.284Z",
+            "status": "Accepted",
+            "recipientId": "scientist",
+            "professionalName": "Dr (Mls) Marie Curie",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "John Doe Alex booked a In-person session for 2025-12-31 at 01:45.",
+            "details": {
+                "patientName": "John Doe Alex",
+                "patientId": "PATH-1234",
+                "appointmentType": "In-person",
+                "date": "2025-12-31",
+                "time": "01:45",
+                "amountPaid": 0,
+                "balanceDue": 155
+            }
+        },
+        {
+            "id": "NOTIF-1767051885816-428",
+            "timestamp": "2025-12-29T23:44:45.817Z",
+            "status": "Unread",
+            "recipientId": "PATH-2008",
+            "professionalName": "SAMUEL YEBOAH",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Dr. Sarah Smith for 2025-12-31 at 02:00 PM has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767051885806",
+                "patientId": "PATH-2008",
+                "professionalName": "Dr. Sarah Smith",
+                "date": "2025-12-31",
+                "time": "02:00 PM",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767051885811-44",
+            "timestamp": "2025-12-29T23:44:45.811Z",
+            "status": "Unread",
+            "recipientId": "phy1",
+            "professionalName": "Dr. Sarah Smith",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "SAMUEL YEBOAH booked a In-person session for 2025-12-31 at 02:00 PM.",
+            "details": {
+                "patientName": "SAMUEL YEBOAH",
+                "patientId": "PATH-2008",
+                "appointmentType": "In-person",
+                "date": "2025-12-31",
+                "time": "02:00 PM",
+                "amountPaid": 0,
+                "balanceDue": 155
+            }
+        },
+        {
+            "id": "NOTIF-1767043990535-573",
+            "timestamp": "2025-12-29T21:33:10.536Z",
+            "status": "Unread",
+            "recipientId": "phy2",
+            "professionalName": "Dr. James Wilson",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "Ethel Stargirl booked a Video session for 2025-12-29 at 09:00 AM.",
+            "details": {
+                "patientName": "Ethel Stargirl",
+                "patientId": "PATH-8406",
+                "appointmentType": "Video",
+                "date": "2025-12-29",
+                "time": "09:00 AM"
+            }
+        },
+        {
+            "id": "NOTIF-1767043990537-637",
+            "timestamp": "2025-12-29T21:33:10.537Z",
+            "status": "Unread",
+            "recipientId": "phy2",
+            "professionalName": "Dr. James Wilson",
+            "type": "PAYMENT_CONFIRMATION",
+            "title": "Payment Confirmed",
+            "message": "Payment confirmed for Ethel Stargirl's appointment on 2025-12-29.",
+            "details": {
+                "patientName": "Ethel Stargirl",
+                "amount": "GHS 155.00"
+            }
+        },
+        {
+            "id": "NOTIF-1767043990536-705",
+            "timestamp": "2025-12-29T21:33:10.536Z",
+            "status": "Unread",
+            "recipientId": "PATH-8406",
+            "professionalName": "Ethel Stargirl",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Dr. James Wilson for 2025-12-29 at 09:00 AM has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767043990499",
+                "patientId": "PATH-8406",
+                "professionalName": "Dr. James Wilson",
+                "date": "2025-12-29",
+                "time": "09:00 AM",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767042332338-493",
+            "timestamp": "2025-12-29T21:05:32.338Z",
+            "status": "Dismissed",
+            "recipientId": "sci1",
+            "professionalName": "Dr (Mls) John Doe",
+            "type": "APPOINTMENT_CANCELLED",
+            "title": "Appointment Cancelled",
+            "message": "Stem Cell has cancelled their appointment for 2025-12-31 at 10:30 AM.",
+            "details": {
+                "patientName": "Stem Cell",
+                "date": "2025-12-31",
+                "time": "10:30 AM"
+            }
+        },
+        {
+            "id": "NOTIF-1767041528295-664",
+            "timestamp": "2025-12-29T20:52:08.295Z",
+            "status": "Unread",
+            "recipientId": "PATH-7628",
+            "professionalName": "Asana imoro",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Dr (Mls) Jane Roe for 2025-12-31 at 02:00 PM has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767041528292",
+                "patientId": "PATH-7628",
+                "professionalName": "Dr (Mls) Jane Roe",
+                "date": "2025-12-31",
+                "time": "02:00 PM",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767041528294-161",
+            "timestamp": "2025-12-29T20:52:08.294Z",
+            "status": "Dismissed",
+            "recipientId": "scientist",
+            "professionalName": "Dr (Mls) Jane Roe",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "Asana imoro booked a In-person session for 2025-12-31 at 02:00 PM.",
+            "details": {
+                "patientName": "Asana imoro",
+                "patientId": "PATH-7628",
+                "appointmentType": "In-person",
+                "date": "2025-12-31",
+                "time": "02:00 PM"
+            }
+        },
+        {
+            "id": "NOTIF-1767041528295-428",
+            "timestamp": "2025-12-29T20:52:08.295Z",
+            "status": "Unread",
+            "recipientId": "sci2",
+            "professionalName": "Dr (Mls) Jane Roe",
+            "type": "PAYMENT_CONFIRMATION",
+            "title": "Payment Confirmed",
+            "message": "Payment confirmed for Asana imoro's appointment on 2025-12-31.",
+            "details": {
+                "patientName": "Asana imoro",
+                "amount": "GHS 155.00"
+            }
+        },
+        {
+            "id": "NOTIF-1767041501437-593",
+            "timestamp": "2025-12-29T20:51:41.437Z",
+            "status": "Unread",
+            "recipientId": "pha1",
+            "professionalName": "Pharm. David Black",
+            "type": "APPOINTMENT_BOOKING",
+            "title": "New Appointment Booking",
+            "message": "Asana imoro booked a In-person session for 2025-12-31 at 02:00 PM.",
+            "details": {
+                "patientName": "Asana imoro",
+                "patientId": "PATH-7628",
+                "appointmentType": "In-person",
+                "date": "2025-12-31",
+                "time": "02:00 PM"
+            }
+        },
+        {
+            "id": "NOTIF-1767041501438-699",
+            "timestamp": "2025-12-29T20:51:41.438Z",
+            "status": "Unread",
+            "recipientId": "PATH-7628",
+            "professionalName": "Asana imoro",
+            "type": "APPOINTMENT_CONFIRMED",
+            "title": "Appointment Confirmed & Payment Received",
+            "message": "Your appointment with Pharm. David Black for 2025-12-31 at 02:00 PM has been successfully booked and payment processed.",
+            "details": {
+                "appointmentId": "APP-1767041501431",
+                "patientId": "PATH-7628",
+                "professionalName": "Pharm. David Black",
+                "date": "2025-12-31",
+                "time": "02:00 PM",
+                "paymentStatus": "Paid"
+            }
+        },
+        {
+            "id": "NOTIF-1767041501438-628",
+            "timestamp": "2025-12-29T20:51:41.438Z",
+            "status": "Unread",
+            "recipientId": "pha1",
+            "professionalName": "Pharm. David Black",
+            "type": "PAYMENT_CONFIRMATION",
+            "title": "Payment Confirmed",
+            "message": "Payment confirmed for Asana imoro's appointment on 2025-12-31.",
+            "details": {
+                "patientName": "Asana imoro",
+                "amount": "GHS 155.00"
+            }
+        }
+    ],
+    "prescriptions": [],
+    "patient_profiles": {
+        "pat2922": {
+            "fullName": "Stem Cell",
+            "name": "Stem Cell",
+            "dob": "1995-12-27",
+            "phone": "0203319431",
+            "email": "stemcell070@gmail.com",
+            "region": "Western",
+            "address": "Taakoma",
+            "lastUpdated": "2025-12-29T21:13:03.511Z"
+        },
+        "pat5414": {
+            "fullName": "Patricia Mawulolo Kaletsi ",
+            "name": "Patricia Mawulolo Kaletsi ",
+            "sex": "Female",
+            "gender": "Female",
+            "phone": "123455555",
+            "email": "elevatedpretty@gmail.com",
+            "region": "Central",
+            "address": "kofikii",
+            "lastUpdated": "2025-12-29T21:16:28.714Z"
+        },
+        "PATH-8406": {
+            "fullName": "Ethel Stargirl",
+            "sex": "Female",
+            "age": "19",
+            "phone": "0266539654",
+            "email": "etheladabs@gmail.com",
+            "address": "Fuo, plot 156",
+            "region": "Northern",
+            "country": "Ghana",
+            "lastUpdated": "2025-12-29T21:31:03.150Z"
+        },
+        "PATH-2008": {
+            "fullName": "SAMUEL YEBOAH",
+            "sex": "Male",
+            "age": "45",
+            "phone": "1234567899",
+            "email": "samuelyeboah@gmail.com",
+            "address": "KUMASI",
+            "region": "Volta",
+            "country": "Ghana",
+            "lastUpdated": "2025-12-29T21:54:07.755Z"
+        },
+        "PATH-1234": {
+            "fullName": "John Doe Alex",
+            "sex": "Male",
+            "age": "55",
+            "phone": "112334445",
+            "email": "patient@drkal.com",
+            "address": "yogaat",
+            "region": "Upper East",
+            "country": "Ghana",
+            "lastUpdated": "2025-12-29T23:54:52.373Z"
+        }
+    },
+    "vitals": {},
+    "records": [],
+    "config": {}
+}
